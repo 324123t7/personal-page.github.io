@@ -1,0 +1,489 @@
+.A{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:50px;
+	color:#FFE66F;
+	height:100px;
+	background-color: black;
+	padding: auto;
+	font-weight:bold;
+	font-family:標楷體;
+}
+
+.logo{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color: black;
+	padding-top:30px;
+}
+
+.logoX:hover{
+    transform:scaleX(-1);
+    transition:5s;
+}
+
+.logo2{
+	margin-left:-800px;
+}
+
+.logo3{
+	margin-left:-700px;
+	font-size:30px;
+	color:#FFE66F;
+	font-family:標楷體;
+}
+
+.logo4{
+	display:flex;
+	margin-top:-80px;
+	margin-left:1700px;
+	color: #FFE66F;
+	background-color: #262626;
+	border:1px  #FFE66F solid;
+	width:90px;
+	height:25px;
+	text-align:center;
+	text-decoration: none;
+}
+
+.B{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+
+.C{
+    display:flex;
+	text-align:center;
+    color: 	#FFE66F;
+	border: 1px rgb(255, 255, 255) solid;
+	border-radius:10px;
+	margin: 30px 20px 10px 20px ;
+	padding: 10px 10px 10px 10px;
+    text-decoration: none;
+	background-color:#262626;
+	font-size: 30px;
+}
+
+.{
+    display:flex;
+	text-align:center;
+    color: #FFE66F;
+	border: 1px rgb(255, 255, 255) solid;
+	margin: 30px 20px 10px 20px ;
+    text-decoration: none;
+	background-color:	blue;
+	font-size: 25px;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.E{
+	display:flex;
+	text-align:center;
+	justify-content:center;
+	align-items:center;
+	background-color: black;
+	font-size: 25px;
+	font-weight:bold;
+	font-family:標楷體;
+	margin: 0px;
+	height: 350px;
+	color: #FFE66F;
+
+}
+
+.F{
+	display:flex;
+	justify-content:center;
+	text-align: center;
+	background-color:black ;
+	height: 100%;
+}
+
+.G{
+	list-style-type:none;
+	padding: 10px 50px 10px 50px;
+	color:#FFF;
+}
+
+
+
+.H{
+	display:flex;
+	justify-content:center;
+	text-align: center;
+	background-color: #262626;
+	color: #FFF;
+	height: 280px;
+	padding-right:40px;
+}
+
+.五大夜市{
+	display:flex;
+	justify-content:center;
+	text-align: center;
+	color:#FFE66F;
+	font-size:35px;
+
+	margin-bottom:0px;
+}
+
+.OL{
+
+	text-align:center;
+    list-style-type: none;
+	font-size:25px;
+	text-decoration: none;
+
+}
+
+.燈籠{
+	margin-right:700px;
+	margin-left:700px;
+}
+
+.footer{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	color: #FFF;
+	height:150px;
+	background-color: #262626;
+	text-decoration: none;
+}
+
+.footer1{
+	text-align: center;
+	text-decoration: none;
+}
+
+
+
+.文字顏色{
+	color:#fff;
+	font-size:25px;
+}
+
+
+.test1{
+	display:flex;
+	text-align: center;
+	color: #FFF;
+	font-size:20px;
+
+	height:320px;
+}
+
+.test2{
+	display:flex;
+	text-align: center;
+	color:#FFE66F;
+	width:100%;
+
+
+
+}
+
+.test3{
+	color:#FFE66F;
+	text-align: center;
+	font-size:25px;
+
+}
+
+
+.外{
+
+	padding-right:50px;
+	padding-left:50px;
+}
+
+
+
+.取消超連結{
+	text-decoration: none;
+	color:#fff;
+	font-size:20px;
+}
+
+
+.I{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	background-color: #262626;
+	padding-top:0px;
+	height:90px;
+}
+
+.J{
+	
+	margin-top:80px;
+	padding:0px 0px 0px 20px;
+}
+
+
+
+.j2{
+	margin-top:80px;
+	padding:0px 0px 0px 40px ;
+
+}
+
+
+.K{
+	color:#FFE66F ;
+	text-align:center;
+	font-size: 90px;
+	margin:20px;
+}
+
+
+
+.L{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding: 0px 810px 0px 810px;
+
+}
+
+.table{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+    border-collapse:separate;
+	border:1.5px #FFE66F solid;
+	margin:20px 550px 0px 550px;
+	padding:3px 4px 3px 4px;
+
+}
+
+.tablex{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+    border-collapse:separate;
+	border:1px #FFE66F solid;
+	margin:20px 650px 0px 650px;
+	padding:2px 0px 2px 0px;
+
+}
+
+
+.table1{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+    border-collapse:separate;
+	border:1px #FFE66F solid;
+	margin:20px 679px 0px 679px;
+	padding:2px 0px 2px 0px;
+
+}
+
+.table2{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+    border-collapse:separate;
+	border:1px #FFE66F solid;
+	margin:20px 730px 0px 730px;
+	padding:2px 0px 2px 0px;
+}
+
+
+.td{
+
+	text-align: center;
+	collapse;border:1px solid #FFE66F;
+	color: #FFF;
+	width:100px;
+	font-size:19px;
+
+
+}
+
+.L1{
+
+	padding: 25px 800px 0px 800px;
+}
+
+.L2{
+	padding: 25px 800px 0px 800px;
+}
+
+.L3{
+	padding: 25px 800px 0px 800px;
+}
+
+
+.marquee{
+	display: flex;
+	align-items:center;
+	color: #FFF;
+	margin:0px 550px 0px 550px;
+	font-size:20px;
+}
+
+.marquee1{
+	vertical-align:middle;
+}
+
+
+.header1{
+	color:#FFE66F ;
+	text-align:center;
+	font-size: 70px;
+	margin:10px;
+}
+
+
+.top{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	color: #FFE66F;
+	background-color: #262626;
+	border:1px  #FFE66F solid;
+	width:190px;
+	height:80px;
+	margin-left:89%;
+	text-align:center;
+	text-decoration: none;
+}
+
+.圖片靠左{
+	float:left;
+	border:1px #FFF solid;
+	height:705px;
+	border-radius: 10px;
+	padding-top:50px;
+}
+
+.夜市介紹文字{	
+    float:right;
+	border:1px #FFF solid;
+	background-color: #262626;
+	color: #FFE66F;
+	font-size:20px;
+    width:500px;
+	height:590px;
+	margin-right:650px;
+	margin-top:85px;
+	padding-left:0px;
+	padding-right:20px;
+	letter-spacing:5px;
+	line-height: 60px;
+	font-family:ZCOOL QingKe HuangYou;
+}
+
+.夜市超連結{
+	text-decoration: none;
+	color:#FFF;
+}
+
+.夜市超連結2{
+	text-decoration: none;
+	color:#FFE66F;
+}
+
+.返回{
+	display:flex;
+	text-align:center;
+    color: 	#FFE66F;
+	border: 1px rgb(255, 255, 255) solid;
+	border-radius:10px;
+	margin: 650px 20px 10px 20px ;
+	padding: 10px 10px 10px 10px;
+    text-decoration: none;
+	background-color:#262626;
+	font-size: 30px;
+	width:180px;
+	
+}
+
+.營業時間{
+	color:#FFF;
+}
+
+
+.雞排{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	border-collapse:separate;
+	width:490px;
+    border-collapse:separate;
+	border:1.5px #FFE66F solid;
+	margin:50px 20px 70px 50px;
+
+
+
+}
+
+.雞排1{
+	text-align: center;
+	collapse;border:1px solid #FFE66F;
+	color: #FFF;
+	width:200px;
+	font-size:19px;
+	background-color:#262626;
+}
+
+
+
+.雞排2{	
+	color: #fff;
+	font-size:25px;
+	width:475px;
+    border-collapse:separate;
+	border:1.5px #FFE66F solid;
+	padding-left:15px;
+	background-color: #262626;;
+}
+
+.testa, .testb {
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	margin-left:400px;
+
+}
+
+.testc, .testd {
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	margin-left:400px;
+}
+
+
+
+.返回美食介紹{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+    color: 	#FFE66F;
+	border: 1px rgb(255, 255, 255) solid;
+	border-radius:10px;
+	margin: 90px 0px 20px 800px ;
+	padding: 10px 10px 10px 10px;
+    text-decoration: none;
+	background-color:#262626;
+	font-size: 30px;
+	width:240px;
+	text-decoration: none;
+	list-style-type: none;
+}
