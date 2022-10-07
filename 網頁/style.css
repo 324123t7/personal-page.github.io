@@ -1,7 +1,7 @@
 /*example.css*/
-[class*="col-1"]{
-    width: :100%;
-}
+
+
+
 
 @media only screen and (min-width:480px){
     .col-s-1{width:8.33%;}
@@ -17,7 +17,9 @@
     .col-s-11{width:91.66%;}
     .col-s-12{width:100%;}
 }
-@media only screen and (min-width:480px){
+
+
+@media only screen and (min-width:844px){
     .col-1{width:8.33%;}
     .col-2{width:16.66%;}
     .col-3{width:25%;}
@@ -32,6 +34,7 @@
     .col-12{width:100%;}
 }
 
+/*禁止上下捲捲
 body{
     height: 100%;
     width: 100$;
@@ -39,7 +42,38 @@ body{
     top:0;
     left:0;
 }
-.img{
-    height:100%;
-    width: 100%;
+*/
+body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+    width: 100$;
+    position:fixed;
+    top:0;
+    left:0;
 }
+
+.wrap{
+    
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    
+}
+.item{
+    background-color: beige;
+    margin: 0px 0px 0px 0px;
+
+    width: 100%;
+
+}
+
+/*
+@media screen and (min-width:768px) {
+    .wrap{
+        display: flex;
+        
+    }
+}
+*/
