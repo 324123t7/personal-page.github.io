@@ -1,0 +1,111 @@
+/*-----------------下方針對整體網頁設計-----------------------*/
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+html{
+  height: 100%;
+}
+
+/*-----------------上方針對整體網頁設計-----------------------*/
+
+.img1{
+  position:fixed;
+  z-index: 1;
+}
+
+.img2{
+  position:fixed;
+  z-index: 1;
+  width:45%;
+  left:29%;
+  animation: myfirst 1.5s infinite; 
+}
+
+@keyframes myfirst {
+  0% {
+      transform: translate(0px, 0px);
+  }
+  50% {
+      transform: translate(0px, -9px);
+  }
+
+  100% {
+      transform: translate(0px, 0px);
+  }
+}
+
+/*-----------------下方自適應-----------------------*/
+@media only screen and (min-width: 320px) {
+  img{
+      height: auto;
+      width:320px;
+  }
+  .img2{
+    margin-top: 135%;
+  }
+}
+@media only screen and (min-width: 360px) {
+  img{
+      height: auto;
+      width:360px;
+  }
+  .img2{
+    margin-top:130%;
+  }
+}
+
+@media only screen and (min-width: 370px){
+  .img{
+      height: auto;
+      width:370px;
+  }
+  .img2{
+    margin-top:133%;
+  }
+}
+@media only screen and (min-width: 390px){
+  img{
+      height: auto;
+      width:390px;
+  }
+  .img2{
+    margin-top:130%;
+  }
+}
+@media only screen and (min-width: 400px){
+  img{
+      height: auto;
+      width:400px;
+  }
+  .img2{
+    margin-top:130%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  img{
+      height: auto;
+      width:480px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  img{
+      height: auto;
+      width:720px;
+  }
+}
+/*-----------------上方自適應-----------------------*/
